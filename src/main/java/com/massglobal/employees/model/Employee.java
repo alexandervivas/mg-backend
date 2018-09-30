@@ -11,6 +11,10 @@ public class Employee {
     private Double hourlySalary;
     private Double monthlySalary;
 
+    public Long getId() {
+        return id;
+    }
+
     public void setId(Long id) {
         this.id = id;
     }
