@@ -15,6 +15,26 @@ public class Employee {
         return id;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public String getContractTypeName() {
+        return contractTypeName;
+    }
+
+    public Long getRoleId() {
+        return roleId;
+    }
+
+    public String getRoleName() {
+        return roleName;
+    }
+
+    public String getRoleDescription() {
+        return roleDescription;
+    }
+
     public Double getHourlySalary() {
         return hourlySalary;
     }
