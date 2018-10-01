@@ -1,4 +1,4 @@
-package com.massglobal.employees;
+package com.massglobal;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -21,6 +21,11 @@ public class EmployeesRepository implements Repository<Employee, Long> {
 
     @Override
     public Employee findById(Long id) {
-        return employeesRESTService.getEmployees().stream().filter(employee -> employee.getId() == id).findFirst().get();
+        return employeesRESTService
+                .getEmployees()
+                .stream()
+                .filter(employee -> employee.getId() == id)
+                .findFirst()
+                .get();
     }
 }
