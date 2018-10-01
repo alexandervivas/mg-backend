@@ -27,4 +27,9 @@ public class EmployeesQueriesServiceImpl implements EmployeesQueriesService {
 
     }
 
+    @Override
+    public EmployeeDTO getById(Long id) {
+        return EmployeeDTOFactory.getInstance().create(employeesRepository.findById(id));
+    }
+
 }
